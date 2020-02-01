@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-web-server",
+  "version": "0.0.1",
+  "description": "Creation of a web server using nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js localhost 8080"
+  },
+  "keywords": [
+    "web",
+    "server"
+  ],
+  "author": "Mayank D",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

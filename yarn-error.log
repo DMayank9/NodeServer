@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Mayank\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js -D add nodemon
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Mayank\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Hewlett-Packard\SimplePass;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\MinGW\bin;C:\Android;C:\Windows\System32;C:\WINDOWS\System32\OpenSSH;D:\softwares\matlab2013\runtime\win64;D:\softwares\matlab2013\bin;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Users\Mayank\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\Mayank\AppData\Local\Programs\Python\Python38-32;C:\Users\Mayank\AppData\Local\Microsoft\WindowsApps;C:\Users\Mayank\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mayank\AppData\Roaming\npm
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  13.6.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\Mayank\Documents\guvi\nodejs-project\package.json: Unexpected token / in JSON at position 154
+      at JSON.parse (<anonymous>)
+      at C:\Users\Mayank\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Mayank\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\Mayank\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "nodejs-web-server",
+    "version": "0.0.1",
+    "description": "Creation of a web server using nodeJS",
+    "main": "index.js",
+    "scripts": {
+      //"test": "echo \"Error: no test specified\" && exit 1"
+      "start": "node index.js" // USE npm run start, without the need of using node index.js
+      // Other people dont have to remember which file is start file. They can just use npm run start
+      
+    },
+    "keywords": [
+      "web",
+      "server"
+    ],
+    "author": "Mayank D",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
